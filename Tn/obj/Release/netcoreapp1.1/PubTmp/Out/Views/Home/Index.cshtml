@@ -1,0 +1,72 @@
+﻿@using Model;
+@using System.Collections;
+
+@{
+
+    var news = ViewData["News"] as List<News>;
+    var hashfrom = ViewData["HasFromList"] as Hashtable;
+
+    var thiscode = ViewData["Code"].ToString();
+    if (string.IsNullOrEmpty(thiscode))
+    {
+        ViewData["Title"] = "科技资讯聚合平台";
+    }
+    else
+    {
+        ViewData["Title"] =  hashfrom[thiscode] + " - " + ViewData["SiteName"];
+    }
+
+    var page = int.Parse(ViewData["Page"].ToString());
+
+}
+
+
+<div class="row">
+    <div class="col-md-8">        
+        <ul class="news">
+           @foreach (var n in news){
+               var url = string.Format("/info-{0}.html", n.Id);
+
+               if (n.Code == "cnbeta" || n.Code == "geekpark")
+               {
+                   url = n.Link;
+               }
+
+               var sign = "";
+               if (string.IsNullOrEmpty(thiscode))
+               {
+                   sign = string.Format(" {0} @{1}", n.PubTime.ToString("MM-dd HH:mm"), hashfrom[n.Code]);
+               } else
+               {
+                   sign = string.Format(" {0}", n.PubTime.ToString("MM-dd HH:mm"));
+               }
+
+            <li><a href="@url" target="_blank" title="@n.Title">@n.Title</a> <span class="pubtime"><a href="@n.Link" target="_blank" title="@n.Title">@sign</a></span></li>
+           }
+        </ul>
+
+        <nav>
+            <ul class="pager">
+
+
+                @if (page > 1)
+                {
+                    var pp = page - 1;
+                    <li><a href="/?p=@pp">上一页</a></li>
+                }
+                
+                @if (news.Count == 50)
+                {
+                    var np = page + 1;
+
+                    <li><a href="/?p=@np">下一页</a></li>
+                }
+                
+                
+            </ul>
+        </nav>
+    </div>
+    <div class="col-md-4">
+       
+    </div>
+ </div>

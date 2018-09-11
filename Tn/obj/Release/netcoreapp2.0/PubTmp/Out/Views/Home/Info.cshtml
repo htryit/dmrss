@@ -1,0 +1,22 @@
+﻿@using Model;
+@using System.Collections;
+
+@{
+    var item = ViewData["Item"] as News;
+    var codename = ViewData["CodeName"].ToString();
+
+}
+
+
+<div class="row">
+    <div class="page-header">
+        <h1 class="info-item">@item.Title</h1>
+        <div class="srchref"><a href="@item.Link" target="_blank" title="@codename">@codename - @item.PubTime.ToString("MM-dd HH:mm")</a></div>
+    </div>
+    <div class="col-md-8 newscontent">
+        @Html.Raw(item.Context)
+    </div>
+    <div class="col-md-4">
+
+    </div>
+</div>

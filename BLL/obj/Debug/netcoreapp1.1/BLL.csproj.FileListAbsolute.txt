@@ -1,0 +1,8 @@
+D:\MySpace\Tn\BLL\bin\Debug\netcoreapp1.1\BLL.deps.json
+D:\MySpace\Tn\BLL\bin\Debug\netcoreapp1.1\BLL.dll
+D:\MySpace\Tn\BLL\bin\Debug\netcoreapp1.1\BLL.pdb
+D:\MySpace\Tn\BLL\obj\Debug\netcoreapp1.1\BLL.csproj.CoreCompileInputs.cache
+D:\MySpace\Tn\BLL\obj\Debug\netcoreapp1.1\BLL.AssemblyInfoInputs.cache
+D:\MySpace\Tn\BLL\obj\Debug\netcoreapp1.1\BLL.AssemblyInfo.cs
+D:\MySpace\Tn\BLL\obj\Debug\netcoreapp1.1\BLL.dll
+D:\MySpace\Tn\BLL\obj\Debug\netcoreapp1.1\BLL.pdb

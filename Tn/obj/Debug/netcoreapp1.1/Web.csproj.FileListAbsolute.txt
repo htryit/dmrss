@@ -1,0 +1,14 @@
+D:\MySpace\Tn\Tn\bin\Debug\netcoreapp1.1\Web.deps.json
+D:\MySpace\Tn\Tn\bin\Debug\netcoreapp1.1\Web.runtimeconfig.json
+D:\MySpace\Tn\Tn\bin\Debug\netcoreapp1.1\Web.runtimeconfig.dev.json
+D:\MySpace\Tn\Tn\bin\Debug\netcoreapp1.1\Web.dll
+D:\MySpace\Tn\Tn\bin\Debug\netcoreapp1.1\Web.pdb
+D:\MySpace\Tn\Tn\bin\Debug\netcoreapp1.1\BLL.dll
+D:\MySpace\Tn\Tn\bin\Debug\netcoreapp1.1\BLL.pdb
+D:\MySpace\Tn\Tn\obj\Debug\netcoreapp1.1\Web.csprojAssemblyReference.cache
+D:\MySpace\Tn\Tn\obj\Debug\netcoreapp1.1\Web.csproj.CoreCompileInputs.cache
+D:\MySpace\Tn\Tn\obj\Debug\netcoreapp1.1\Web.AssemblyInfoInputs.cache
+D:\MySpace\Tn\Tn\obj\Debug\netcoreapp1.1\Web.AssemblyInfo.cs
+D:\MySpace\Tn\Tn\obj\Debug\netcoreapp1.1\Web.csproj.CopyComplete
+D:\MySpace\Tn\Tn\obj\Debug\netcoreapp1.1\Web.dll
+D:\MySpace\Tn\Tn\obj\Debug\netcoreapp1.1\Web.pdb
